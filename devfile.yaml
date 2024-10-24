@@ -4,7 +4,13 @@ metadata:
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
-  - name: petclinic
+  - name: quarkus-api-example1
+    git:
+      remotes:
+        origin: 'https://github.com/malam84/quarkus-api-example.git'
+      checkoutFrom:
+        revision: main
+  - name: quarkus-api-example2
     git:
       remotes:
         origin: 'https://github.com/malam84/quarkus-api-example.git'
