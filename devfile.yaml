@@ -4,14 +4,14 @@ metadata:
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
-  - name: quarkus-api-example
-      git:
-        remotes:
-          origin: 'https://github.com/malam84/quarkus-api-example.git'
-    - name: quarkus-api-example2
-      git:
-        remotes:
-          origin: 'https://github.com/malam84/quarkus-api-example.git'
+- name: quarkus-api-example
+    git:
+      remotes:
+        origin: 'https://github.com/malam84/quarkus-api-example.git'
+- name: quarkus-api-example2
+    git:
+      remotes:
+        origin: 'https://github.com/malam84/quarkus-api-example.git'
 components:
   - name: tools
     container:
