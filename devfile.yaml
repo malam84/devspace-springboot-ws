@@ -3,6 +3,14 @@ metadata:
   generateName: quarkus-api-example-demo
 attributes:
   controller.devfile.io/storage-type: ephemeral
+- name: quarkus-api-example
+    git:
+      remotes:
+        origin: 'https://github.com/malam84/quarkus-api-example.git'
+  - name: backend
+    git:
+      remotes:
+        origin: 'https://github.com/malam84/springboot-hello-world2.git'
 components:
   - name: tools
     container:
