@@ -7,10 +7,10 @@ attributes:
     git:
       remotes:
         origin: 'https://github.com/malam84/quarkus-api-example.git'
-  - name: backend
+  - name: quarkus-api-example2
     git:
       remotes:
-        origin: 'https://github.com/malam84/springboot-hello-world2.git'
+        origin: 'https://github.com/malam84/quarkus-api-example.git'
 components:
   - name: tools
     container:
